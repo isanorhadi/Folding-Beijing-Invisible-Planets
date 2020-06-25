@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+body {
+  background-color: black;
+  line-height: 1.65;
+  margin: 2em;
+  font-family: 'Lora', serif;
+  padding: 50px 200px 50px 200px;
+  overflow: visible;
+  background-image: url("chichirahabackground.jpg");
+
+}
+
+section {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+
+
+}
+
+
+h1 {
+  font-weight: 0;
+  font-size: 2.5em;
+  font-family: 'Lora', serif;
+  color: white;
+  overflow: visible;
+text-shadow: 1px 1px 2px black; 
+}
+
+h3 {
+  font-size: 1em;
+  text-align: left;
+  font-family: 'Lora', serif;
+  color: white;
+  overflow: visible;
+}
+.title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 1.5rem;
